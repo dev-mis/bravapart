@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <!-- <div class="col-6 col-lg-3">
-                <a href="{{ url('') }}">
-                    <img src="{{asset('frontend/assets/images/bravalogo.png')}}" alt="MODENA Agent">
+                <a href="<?php echo \Hyperf\ViewEngine\T::e(url('')); ?>">
+                    <img src="<?php echo \Hyperf\ViewEngine\T::e(asset('frontend/assets/images/bravalogo.png')); ?>" alt="MODENA Agent">
                 </a>
             </div>  -->
             <div class="col-12 col-lg-9 header-menu">
@@ -24,4 +24,4 @@
             </div>
         </div>
     </div>
-</header>
+</header><?php /**PATH /home/coprinos/PROJECT/bravapart/storage/view/frontend/layouts/header.blade.php ENDPATH**/ ?>

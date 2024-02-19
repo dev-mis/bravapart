@@ -70,7 +70,7 @@
         <div class="row pt-4">
             <div class="col-12 col-md-6">
                 <a href="https://www.modena.com/id_id" target="_blank" class="mt-4 mb-3 mb-md-0 d-block">
-                    <img src="{{asset('frontend/assets/images/bravalogoblack.png')}}" style="width:150px" alt="">
+                    <img src="<?php echo \Hyperf\ViewEngine\T::e(asset('frontend/assets/images/bravalogoblack.png')); ?>" style="width:150px" alt="">
                 </a>
             </div>
             <div class="col-12 col-md-6 text-start text-md-end">
@@ -96,4 +96,4 @@
             </div>
         </div>
     </div>
-</footer>
+</footer><?php /**PATH /home/coprinos/PROJECT/bravapart/storage/view/frontend/layouts/footer.blade.php ENDPATH**/ ?>

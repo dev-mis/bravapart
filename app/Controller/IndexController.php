@@ -36,18 +36,18 @@ class IndexController extends AbstractController
     {
         $input = $this->request->all();
 
-        if(!empty($input['code'])){
-            $query = http_build_query($input);
+        // if(!empty($input['code'])){
+        //     $query = http_build_query($input);
 
-            return $this->response->redirect('/admin/login?'.$query);
-        }else{
-            $headerBanner = HeaderBanner::with(['image', 'imageMobile'])->first();
-            $testimonial = Testimonial::with(['image'])->where('is_active', 1)->get();
+        //     return $this->response->redirect('/admin/login?'.$query);
+        // }else{
+        //     $headerBanner = HeaderBanner::with(['image', 'imageMobile'])->first();
+        //     $testimonial = Testimonial::with(['image'])->where('is_active', 1)->get();
     
-            $banks = Bank::get();
+        //     $banks = Bank::get();
     
-            return view('frontend.pages.home.index', compact('headerBanner', 'banks', 'testimonial'));
-        }
+            return view('frontend.pages.home.index');
+        // }
 
     }
 
