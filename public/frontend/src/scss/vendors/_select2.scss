@@ -1,0 +1,69 @@
+.select2 {
+
+  &-container {
+    width: 100% !important;
+  }
+
+  &:focus-visible {
+    outline: none !important;
+  }
+
+  &-selection {
+    border: 1px solid var(--system-disabled, #C4C5C4) !important;
+    height: 48px !important;
+
+    &:focus-visible {
+      outline: none !important;
+    }
+
+    &__rendered {
+      line-height: 48px !important;
+    }
+
+    &__arrow, &__clear {
+      height: 48px !important;
+    }
+  }
+
+  &-search {
+    &__field {
+      &:focus-visible {
+        outline: -webkit-focus-ring-color auto 0px !important;
+      }
+    }
+    
+  }
+
+  &-results {
+    &__option { 
+      padding: 12px 8px !important;
+    }
+  }
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background: var(--Linear-Blue, linear-gradient(57deg, #0073EA -350.57%, #35C6F9 373.48%)) !important;
+}
+
+.is-invalid {
+  
+  & ~ .select2 {
+    .select2-selection {
+        border: 1px solid #dc3545 !important;
+        
+        .select2-selection__arrow b {
+          border-color: #dc3545 transparent transparent transparent !important;
+        }
+    }
+
+    &.select2-container--open {
+      .select2-selection {
+        
+        .select2-selection__arrow b {
+          border-color: transparent transparent #dc3545 transparent !important;
+        }
+      }
+    }
+
+  } 
+} 

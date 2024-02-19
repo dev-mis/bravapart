@@ -1,0 +1,49 @@
+.link {
+    color: #606060;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+
+    &-banner {
+        position: absolute;
+        top: 60px;
+        left: -24px;    
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: -0.32px;
+        color: #fafafa;
+
+        @media screen and (max-width: 678px) {
+            left: 12px;
+        }
+
+        span {
+            width: 32px;
+            height: 32px;
+            background-color: white;
+            border-radius: 100%;
+            color: $black;
+            display: inline-block;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            margin-right: 3px;
+            
+            i {
+                position: relative;
+                top: 4px;
+            }
+        }
+    }
+
+    &-standard {
+        font-style: italic;
+        font-weight: 500;
+        letter-spacing: -0.12px;
+        text-decoration-line: underline;
+    }
+}

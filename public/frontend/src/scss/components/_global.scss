@@ -1,0 +1,23 @@
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    @include text-rendering;
+    color: $black;
+    overflow-x: hidden;
+
+    &.fixed {
+        overflow-y: hidden;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+    
+}
+
+main {
+    margin-top: 80px;
+}

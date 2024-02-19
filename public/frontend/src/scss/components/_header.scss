@@ -1,0 +1,48 @@
+.header {
+    height: 80px;
+    line-height: 80px;
+    background: $white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+    -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+
+    .fi-rr-menu-burger, .fi-rr-cross-small {
+        font-size: 24px;
+        margin: 0 14px;    
+    }
+
+    img {
+        -webkit-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+    }
+
+    &.onscroll {
+        height: 50px;
+        line-height: 50px;
+
+        img {
+            transform: scale(0.8);
+        }
+
+        .header-menu {
+            top: 50px;
+        }
+    }
+
+    &-menu {
+        display: inline-block;
+        
+        @media screen and (max-width: 992px) {
+            display: none;
+            position: fixed;
+            background: white;
+            left: 0;
+            top: 80px;        
+            z-index: 101;
+        }
+    }
+}

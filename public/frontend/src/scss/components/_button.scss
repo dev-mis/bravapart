@@ -1,0 +1,47 @@
+.button {
+    &-primary {
+        border-radius: 8px;
+        background: var(--primary, #161616);
+        display: inline-block;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: -0.096px;
+        height: 52px;
+        line-height: 52px;
+        border: 0;
+        vertical-align: top;
+        padding: 0 24px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            padding: 0 18px;
+            height: 48px;
+            line-height: 48px;
+        }
+    }
+
+    &-secondary {
+        border-radius: 8px;
+        background: var(--neutral-color-04-neutral, #F0F0F0);
+        display: inline-block;
+        color: $black;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: -0.096px;
+        height: 52px;
+        line-height: 52px;
+        border: 0;
+        vertical-align: top;
+        padding: 0 24px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            padding: 0 18px;
+            height: 48px;
+            line-height: 48px;
+        }
+    }
+}

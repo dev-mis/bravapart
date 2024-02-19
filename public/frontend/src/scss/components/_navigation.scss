@@ -1,0 +1,42 @@
+.navigation {
+    text-align: right;
+    
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: inline-block;
+            list-style: none;
+            padding: 0 20px;
+
+            a {
+                color: $black;
+                text-align: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+
+                &.active {
+                    background: linear-gradient(201.33deg, #2E5CFF 21.43%, #0AACF5 80.43%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+
+            }
+
+            @media screen and (max-width: 768px) {
+                display: block;
+                text-align: left;    
+                line-height: 40px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 24px 0;
+    }
+
+}

@@ -1,0 +1,30 @@
+.banner {
+    height: 500px;
+    width: 100%;
+    display: block;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+        height: 680px;
+    }
+    
+    &-image {
+        display: block;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}

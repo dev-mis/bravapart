@@ -1,0 +1,126 @@
+.text {
+    &-x-bold {
+        &-32 {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 800;
+
+            
+            @media screen and (max-width: 768px) {
+                font-size: 20px;
+            }
+        }
+    }
+    &-bold {
+        &-38 {
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+
+            @media screen and (max-width: 768px) {
+                font-size: 28px;
+            }
+        }
+        &-28 {
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.56px;
+        }
+        &-24 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+
+            @media screen and (max-width: 768px) {
+                font-size: 20px;
+            }
+        }
+        &-18 {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+        &-14 {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+        }
+    }
+    &-s-bold {
+        &-32 {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+        }
+        &-28 {
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 600;
+        }
+        &-24 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+        }
+        &-14 {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+        }
+    }
+    &-med {
+        &-42 {
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 500;
+        }
+        &-24 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+
+            @media screen and (max-width: 768px) {
+                font-size: 20px;
+            }
+        }
+        &-16 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+    &-reg {
+        &-18 {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+
+            @media screen and (max-width: 768px) {
+                font-size: 16px;
+            }
+        }
+        &-16 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        &-12 {
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    &-italic {
+        &-16 {
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+}

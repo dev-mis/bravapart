@@ -1,0 +1,48 @@
+.c {
+    &-white {
+        color: $white;
+    }
+    &-black {
+        color: $black;
+    }
+    &-dgray {
+        color: $dgray;
+    }
+
+    &-purple {
+        color: #813BDA;
+    }
+
+    &-grad {
+        &-skyblue {
+            background: linear-gradient(149deg, #72BBFF -8.35%, #3D19CA 183.55%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &-purple {
+            background: linear-gradient(127deg, #DC4EE9 -12.48%, #A44EE9 95.23%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &-turquoise {
+            background: linear-gradient(180deg, #33A0B8 63.79%, #DEF9FF 109.77%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        } 
+        &-red {
+            background: linear-gradient(180deg, #EB4383 -5.75%, #FFCFE2 78.02%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        &-blue {
+            background: linear-gradient(180deg, #1077EF 0%, #CAFFF5 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

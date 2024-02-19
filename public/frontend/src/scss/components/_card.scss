@@ -1,0 +1,66 @@
+.card {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 55px 20px 55px;
+    margin-bottom: 24px;
+    border: 0;
+    position: relative;
+    transition: transform .5s;
+
+    @media screen and (max-width: 678px) {
+        padding: 25px 21px 25px 21px;
+    }
+
+    &:hover,
+    &:focus {
+        box-shadow: 0px 16px 40px 14px rgba(0, 0, 0, 0.05);
+        transform: scale3d(1.01, 1.01, 1.01);
+    }
+
+    &-icon {
+        display: block;
+        background-size: 24px 24px;
+        background-position: center;
+        position: absolute;
+        top: -12px;
+        z-index: 2;
+        left: calc(50% - 12px);
+    }
+
+    &-how {
+        border-radius: 12px;
+        background: linear-gradient(180deg, #F4FBFF 5.06%, rgba(244, 251, 255, 0.00) 100%);
+        padding: 18px;
+        position: relative;
+
+        i {
+            position: absolute;
+            right: -32px;
+            font-size: 24px;
+            top: calc(50% - 20px);
+            color: #FF6679;
+        }
+    }
+
+    &-standard {
+        border-radius: 12px;
+        background: #F6FAFC;
+        padding: 50px;
+
+        @media screen and (max-width: 768px) {
+            padding: 24px;
+        }
+    }
+
+    &-benefit {
+        padding: 40px 16px !important;
+        display: flex;
+        justify-content: center;
+
+        h2, h5 {
+            width: auto;
+            margin-bottom: 0;
+        }
+    }
+}
