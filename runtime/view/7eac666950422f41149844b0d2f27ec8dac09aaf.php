@@ -68,10 +68,34 @@
 <footer class="footer">
     <div class="container">
         <div class="row pt-4">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-3">
                 <a href="https://www.modena.com/id_id" target="_blank" class="mt-4 mb-3 mb-md-0 d-block">
                     <img src="<?php echo \Hyperf\ViewEngine\T::e(asset('frontend/assets/images/bravalogoblack.png')); ?>" style="width:150px" alt="">
                 </a>
+            </div>
+            <div class="col-12 col-md-6">
+            <div class="row pt-4">
+                <div class="col-12 col-md-4">
+                    <ul style="list-style: none;">
+                        <li><b>About</b></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul style="list-style: none;">
+                        <li><b>Product</b></li>
+                        <li>Spare Parts</li>
+                        <li>Accesories</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul style="list-style: none;">
+                        <li><b>More Info</b></li>
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                        <li>Find a Store</li>
+                    </ul>
+                </div>
+</div>
             </div>
             <div class="col-12 col-md-6 text-start text-md-end">
                 <label class="text-bold-14 c-black mb-3 me-4">Subscribe Our Social Media</label>
