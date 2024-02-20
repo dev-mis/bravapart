@@ -97,7 +97,9 @@
                 </div>
 </div>
             </div>
-            <div class="col-12 col-md-6 text-start text-md-end">
+            <div class="col-12 col-md-3 text-start text-md-end">
+                <div class="row pt-4">
+                <div class="col-12 col-md-12">
                 <label class="text-bold-14 c-black mb-3 me-4">Subscribe Our Social Media</label>
                 <ul class="list-standard">
                     <li><a href="https://www.instagram.com/modenaindonesia" class="icon-footer ps-0" target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
@@ -106,6 +108,8 @@
                     <li><a href="https://www.youtube.com/channel/UCamSapmtJalG4hyr78LDajQ" class="icon-footer" target="_blank"><i class="fi fi-brands-youtube"></i></a></li>
                     <li><a href="https://www.linkedin.com/company/modenagroup/" class="icon-footer" target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
                 </ul>
+            </div>
+            </div>
             </div>
         </div>
         <hr class="separator">

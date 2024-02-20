@@ -151,3 +151,6 @@
 [2024-02-20 09:59:20] sql.INFO: [299.22] select * from "seo" limit 1 [] []
 [2024-02-20 10:00:29] sql.INFO: [76.72] select * from "seo" limit 1 [] []
 [2024-02-20 10:02:08] sql.INFO: [48.74] select * from "seo" limit 1 [] []
+[2024-02-20 18:16:21] sql.INFO: [299.14] select * from "seo" limit 1 [] []
+[2024-02-20 18:18:06] sql.INFO: [50.05] select * from "seo" limit 1 [] []
+[2024-02-20 18:18:16] sql.INFO: [11.59] select * from "seo" limit 1 [] []
