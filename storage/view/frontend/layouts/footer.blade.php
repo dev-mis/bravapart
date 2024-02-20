@@ -97,7 +97,7 @@
                 </div>
 </div>
             </div>
-            <div class="col-12 col-md-6 text-start text-md-end">
+            <div class="col-12 col-md-5 text-start text-md-end">
                 <label class="text-bold-14 c-black mb-3 me-4">Subscribe Our Social Media</label>
                 <ul class="list-standard">
                     <li><a href="https://www.instagram.com/modenaindonesia" class="icon-footer ps-0" target="_blank"><i class="fi fi-brands-instagram"></i></a></li>

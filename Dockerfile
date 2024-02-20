@@ -22,7 +22,7 @@ RUN apk add --no-cache $PHPIZE_DEPS && apk add --no-cache php8-pgsql php8-pdo_pg
 && pecl config-set php_ini /etc/php8/php.ini
 RUN apk add --no-cache build-base libssh2-dev libssh2 autoconf && pecl install ssh2-1.3.1 && printf "extension=ssh2.so" > /etc/php8/conf.d/60_ssh2.ini
 RUN apk add --update linux-headers
-RUN pecl install mongodb && printf "extension=mongodb.so" > /etc/php8/conf.d/20_mongodb.ini && pecl config-set php_ini /etc/php8/php.ini
+# RUN pecl install mongodb && printf "extension=mongodb.so" > /etc/php8/conf.d/20_mongodb.ini && pecl config-set php_ini /etc/php8/php.ini
 RUN rm -rf /var/cache/apk/* && apk del $PHPIZE_DEPS
 
 # update
